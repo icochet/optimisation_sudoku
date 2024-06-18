@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+gcc RESOLUTION_2.c -o RESOLUTION_2
+
+clear
+
+./RESOLUTION_2 <<< "MaxiGrilleA.sud"
+read -p "Appuyez sur Entrée pour passer à la grille suivante : "
+./RESOLUTION_2 <<< "MaxiGrilleB.sud"
+read -p "Appuyez sur Entrée pour passer à la grille suivante : "
+./RESOLUTION_2 <<< "MaxiGrilleC.sud"
+read -p "Appuyez sur Entrée pour passer à la grille suivante : "
+./RESOLUTION_2 <<< "MaxiGrilleD.sud"

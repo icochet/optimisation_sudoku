@@ -1,0 +1,1 @@
+Programme d'optimisation de résolution d'une grille de Sudoku de n'importe quelle taille.
